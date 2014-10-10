@@ -1,5 +1,7 @@
 非常NB的录制工具 感谢Intel
+录制视频 fps 非常高如下图
 
+![Image text](https://raw.githubusercontent.com/hai046/Media-Pack/master/8E4C825D7DA17B740515F63C4931F7AB.jpg’)
 
 
 具体说明请查看  
