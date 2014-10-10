@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.intel.inde.mp.samples"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Camera permissions -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- Microphone permissions -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- Require OpenGL ES >= 2.0. -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true" >
+        <activity
+            android:name=".SamplesMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameCapturing"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Game Capturing" />
+        <activity
+            android:name="com.intel.inde.mp.samples.GameStreaming"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Game Streaming" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerTranscodeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Transcode Video" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerTranscodeCoreActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Transcode Video Core" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerMediaFileInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Get Media File Info" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerMediaFileInfoCoreActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Get Media File Info Core" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerJoinActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Join Video" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerJoinCoreActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Join Video Core" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerCutActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Cut Video" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerCutCoreActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Cut Video Core" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerVideoEffectActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Video Effect" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerVideoEffectCoreActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Video Effect Core" />
+        <activity
+            android:name="com.intel.inde.mp.samples.MediaStreamerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Media Streamer" />
+        <activity
+            android:name="com.intel.inde.mp.samples.MediaStreamerCoreActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Media Streamer Core" />
+        <activity
+            android:name="com.intel.inde.mp.samples.CameraStreamerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Camera Streamer"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.intel.inde.mp.samples.VideoStreamPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Video Stream Player" />
+        <activity
+            android:name="com.intel.inde.mp.samples.CameraCapturerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Camera Capturer"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerAudioEffectActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Audio Effect" />
+        <activity
+            android:name="com.intel.inde.mp.samples.ComposerAudioEffectCoreActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Audio Effect Core" />
+        <activity
+            android:name="com.intel.inde.mp.samples.RecognitionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Content Recognition"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

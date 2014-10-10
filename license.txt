@@ -1,0 +1,44 @@
+The following materials are defined as "Licensed Binaries" and are subject
+to the terms and conditions of the End User License Agreement:
+
+<InstallationFolder>\libs\android-1.x.xxx.jar
+<InstallationFolder>\libs\domain-1.x.xxx.jar
+<InstallationFolder>\libs\audible-magic-plugin-1.x.xxx.jar
+
+
+The following materials are defined as "Developer Tools" and are subject
+to the terms and conditions of the End User License Agreement:
+
+<InstallationFolder>\samples\samples.apk
+<InstallationFolder>\media_pack_release_notes.pdf
+<InstallationFolder>\doc\*
+
+
+The following materials are defined as "Sample Source" and are subject
+to the terms and conditions of the End User License Agreement:
+
+<InstallationFolder>\samples\*
+<InstallationFolder>\src\*
+
+========================================================================
+
+The following materials are third party components and are subject to
+the terms and conditions of "Wowza_Video_Streaming_Components_EULA.rtf" 
+and "Wowza_3rdPartyLicensesAndroid.txt" documents:
+
+<InstallationFolder>\libs\wms-transport-wowz.jar
+<InstallationFolder>\libs\netty-all-4.0.13.Final.jar
+
+
+The following materials are third party components and are subject to
+the terms and conditions of "AudibleMagic_EULA.txt" and 
+"AudibleMagic_3rdPartyLicensesAndroid.txt" documents:
+
+<InstallationFolder>\libs\armeabi\libmfcbr.so
+<InstallationFolder>\libs\armeabi\libcrypto.so
+<InstallationFolder>\libs\armeabi\libcurl.so
+<InstallationFolder>\libs\armeabi\libssl.so
+<InstallationFolder>\libs\x86\libmfcbr.so
+<InstallationFolder>\libs\x86\libcrypto.so
+<InstallationFolder>\libs\x86\libcurl.so
+<InstallationFolder>\libs\x86\libssl.so
